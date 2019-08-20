@@ -7,27 +7,34 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        a:hover {
+            opacity: .8;
+            transform: scale(1.05);
+            transition: .25s ease;
+        }
+    </style>
 </head>
 
-<body>
-    <header id="masthead">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<body style="background-color: rgb(224, 223, 223)">
+    <header style="height: 94px; background-color: #ffffff; border: 2px solid #ccc" id="masthead">
+
+        <nav style="height: 90px; width: 960px; background: ##ffffff"
+            class="navbar navbar-expand-lg navbar-light bg-light m-auto">
+            <a style="font-size: 30px; padding: 20px; background-color: #4aaaa5; height: 90px; width: auto; text-align:center; color: white; font-family: 'georgia', times, Times New Roman, serif; line-height: 53px;"
+                class="navbar-brand" href="index.html">Alex
+                Ogilvie</a>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About Me</a>
+                        <a style="border-left: 1px solid #eee;" class="nav-link" href="index.html">About Me</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a style="border-left: 1px solid #eee;" class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                 </ul>
             </div>
@@ -36,31 +43,37 @@
 
         </div>
     </header>
-    <div class="container">
+    <div class="container" style="width: 960px; padding-top: 50px">
         <section class="row">
-            <div class="col-md-8">
-                <h1>About Me</h1>
+            <div style="background-color: white; border: 1px solid #ddd;" class="col-md-8">
+                <div style="padding: 20px;">
+                    <h1 style="border-bottom: 2px solid #ccc; padding-bottom: 20px;">About Me</h1>
 
-                <img src="./assets/images/acm1.jpg" style="height: 200px; width: auto" alt="Alex, Cassie and our dog Mowgli">
-                <p>My Name is Alex Ogilvie. I am resourceful and hard working with a commitment to high standards of
-                    service, performance and integrity. Focusing on customer needs to bring to life a first-rate
-                    customer
-                    experience. I pride myself on being dedicated and reliable with a problem solving nature.</p>
-                <p>I enjoy spending my free time with my wife and dog. Rock climbing is one of my passions and has
-                    helped build dedication to improvement in many aspects of my life.</p>
+                    <img src="./assets/images/acm1.jpg"
+                        style=" padding-top: 20px; height: 200px; width: auto" alt="Alex, Cassie and our dog Mowgli">
+
+                    <p>My Name is Alex Ogilvie. I am resourceful and hard working with a commitment to high standards of
+                        service, performance and integrity. Focusing on customer needs to bring to life a first-rate
+                        customer
+                        experience. I pride myself on being dedicated and reliable with a problem solving nature.</p>
+                    <p>I enjoy spending my free time with my wife and dog. Rock climbing is one of my passions and has
+                        helped build dedication to improvement in many aspects of my life.</p>
+                </div>
             </div>
-
-        </section>
-        <section>
-            <div class="container col-md-4">
-                <h2>Connect with Me</h2>
-
-                <a href="https://www.facebook.com/aogilvie2" target="_blank"><img src="./assets/images/fb.png" style="height: 95px; width: auto"
-                        class="social" alt="Facebook Logo"></a>
-                <a href="https://github.com/ogilvie1231" target="_blank"><img src="./assets/images/gh.svg" style="height: 95px; width: auto"
-                        class="social" alt="Github Logo"></a>
-                <a href="https://www.linkedin.com/in/alex-ogilvie-55288257/" target="_blank"><img
-                        src="./assets/images/li.png" style="height: 90px; width: auto" class="social" alt="Linked In Logo"></a>
+            <div class="col-md-1"></div>
+            <div style="background-color: white; border: 1px solid #ddd;" class="col-md-3">
+                <div style="border-bottom: 2px solid #eee; padding-bottom: 20px;">
+                    <h4 style="padding-top: 20px;" class="text-center">Connect with Me</h4>
+                    <div class="text-center">
+                        <a href="https://www.facebook.com/aogilvie2" target="_blank"><img src="./assets/images/fb.png"
+                                style="height: 45px; width: auto" class="social" alt="Facebook Logo"></a>
+                        <a href="https://github.com/ogilvie1231" target="_blank"><img src="./assets/images/gh.svg"
+                                style="height: 45px; width: auto" class="social" alt="Github Logo"></a>
+                        <a href="https://www.linkedin.com/in/alex-ogilvie-55288257/" target="_blank"><img
+                                src="./assets/images/li.png" style="height: 42px; width: auto" class="social"
+                                alt="Linked In Logo"></a>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
