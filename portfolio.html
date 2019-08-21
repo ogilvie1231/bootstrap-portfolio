@@ -7,64 +7,104 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+    <style>
+        a:hover {
+            opacity: .8;
+            transform: scale(1.05);
+            transition: .25s ease;
+        }
+
+
+        body {
+            background: url(./assets/images/portfolio-background.png)
+        }
+    </style>
 </head>
 
 <body>
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Alex Ogilvie</a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
+    <header style="height: 94px; background-color: #ffffff; border: 2px solid #ccc" id="masthead">
+
+        <nav style="height: 90px; width: 960px; background: #ffffff;"
+            class="navbar navbar-expand-lg navbar-light bg-light m-auto">
+            <a style="font-weight: bold; font-size: 30px; padding: 20px; background-color: #4aaaa5; height: 90px; width: auto; text-align:center; color: white; font-family: 'georgia', times, Times New Roman, serif; line-height: 53px;"
+                class="navbar-brand" href="index.html">Alex
+                Ogilvie</a>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a style="border-left: 1px solid #eee;" class="nav-link" href="index.html">About Me</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a style="border-left: 1px solid #eee;" class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <!-- For my portfolio section, I filled it with things i enjoy just for the sake of having content for the time being. -->
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>Portfolio</h1>
-            <div class="work">
-                <a href="http://www.tommycaldwell.com/" target="_blank"><img src="./assets/images/caldwell.jpg" alt="Tommy Caldwell"
-                        class="auth-image"></a>
-                <h3>My Favorite Book</h3>
-            </div>
-            <div class="work">
-                <a href="https://www.mountainproject.com/route/105739892/goodros-wall" target="_blank"><img
-                    src="./assets/images/favorite-climb.jpg" class="auth-image" alt="Mountain Project"></a>
-                <h3>My Favorite Climb</h3>
-            </div>
-            <div class="work">
-                <a href="https://www.zionponderosa.com/moose_lodge/" target="_blank"><img
-                        src="./assets/images/my-favorite-place.jpg" class="auth-image" alt="Zion Ponderosa"></a>
-                <h3>My Favorite Place</h3>
-            </div>
-            <div class="work">
-                <a href="https://www.facebook.com/cassie.pearce.3" target="_blank"><img
-                        src="./assets/images/favorite-people.jpg" class="auth-image" alt="Cassie Ogilvie"></a>
-                <h3>My Favorite People</h3>
-            </div>
-            <div class="work">
-                <a href="https://www.bridgecitysinners.com/" target="_blank"><img
-                        src="./assets/images/my-favorite-band.jpg" class="auth-image" alt="Bridge City Sinners"></a>
-                <h3>My Favorite Band</h3>
+    <div class="container" style="width: 960px; padding-top: 50px">
+        <section class="row">
+            <div style="background-color: white; border: 1px solid #ddd;" class="col-md-8">
+                <div style="padding: 20px;">
+                    <div>
+                        <h1 class="col-md-12"
+                            style="font-family: 'Georgia', Times New Roman, Times, serif; color: #4aaaa5; font-weight: bold; border-bottom: 2px solid #ccc; padding-bottom: 20px;">
+                            Portfolio</h1>
+                    </div>
+                    <div class="col-md-">
+                        <a href="http://www.tommycaldwell.com/" style="padding-top: 20px; height: 200px; width: auto;" target="_blank"><img src="./assets/images/caldwell.jpg"
+                                alt="Tommy Caldwell" class="auth-image"></a>
+                        <h3>My Favorite Book</h3>
+                    </div>
+
+                    <div class="col-md-">
+                        <a href="https://www.mountainproject.com/route/105739892/goodros-wall" style="padding-top: 20px; height: 200px; width: auto;" target="_blank"><img
+                                src="./assets/images/favorite-climb.jpg" class="auth-image" alt="Mountain Project"></a>
+                        <h3>My Favorite Climb</h3>
+                    </div>
+                    <div class="work">
+                        <a href="https://www.zionponderosa.com/moose_lodge/" target="_blank"><img
+                                src="./assets/images/my-favorite-place.jpg" class="auth-image" alt="Zion Ponderosa"></a>
+                        <h3>My Favorite Place</h3>
+                    </div>
+                    <div class="work">
+                        <a href="https://www.facebook.com/cassie.pearce.3" target="_blank"><img
+                                src="./assets/images/favorite-people.jpg" class="auth-image" alt="Cassie Ogilvie"></a>
+                        <h3>My Favorite People</h3>
+                    </div>
+                    <div class="work">
+                        <a href="https://www.bridgecitysinners.com/" target="_blank"><img
+                                src="./assets/images/my-favorite-band.jpg" class="auth-image"
+                                alt="Bridge City Sinners"></a>
+                        <h3>My Favorite Band</h3>
+                    </div>
+                </div>
             </div>
 
-        </section>
-        <section class="sidebar">
-            <div id="connect">
-                <h2>Connect with Me</h2>
 
-                <a href="https://www.facebook.com/aogilvie2" target="_blank"><img src="./assets/images/fb.png"
-                        class="social" alt="Facebook Logo"></a>
-                <a href="https://github.com/ogilvie1231" target="_blank"><img src="./assets/images/gh.svg"
-                        class="social" alt="Github Logo"></a>
-                <a href="https://www.linkedin.com/in/alex-ogilvie-55288257/" target="_blank"><img
-                        src="./assets/images/li.png" class="social" alt="Linked In Logo"></a>
+            <div class="col-md-1"></div>
+            <div style="background-color: white; border: 1px solid #ddd;" class="col-md-4">
+                <div style=" padding-bottom: 20px;">
+                    <h4 style="border-bottom: 2px solid #eee; padding: 30px 0px 29px 0px; font-family: 'Georgia', Times New Roman, Times, serif; color: #777777;"
+                        class="text-center">Connect with Me</h4>
+                    <div class="text-center imgEx" style="padding: 20px 0px 0px 0px;">
+                        <a href="https://www.facebook.com/aogilvie2" target="_blank"><img src="./assets/images/fb.png"
+                                style="height: 55px; width: auto" class="social" alt="Facebook Logo"></a>
+                        <a href="https://github.com/ogilvie1231" target="_blank"><img src="./assets/images/gh.svg"
+                                style="height: 55px; width: auto" class="social" alt="Github Logo"></a>
+                        <a href="https://www.linkedin.com/in/alex-ogilvie-55288257/" target="_blank"><img
+                                src="./assets/images/li.png" style="height: 52px; width: auto" class="social"
+                                alt="Linked In Logo"></a>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
+    <br>
 
     <footer>
         <div class="container">

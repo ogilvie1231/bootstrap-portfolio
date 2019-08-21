@@ -13,19 +13,24 @@
             transform: scale(1.05);
             transition: .25s ease;
         }
+        
+
+        body {
+            background: url(./assets/images/portfolio-background.png)
+        }
     </style>
 </head>
 
-<body style="background-color: rgb(224, 223, 223)">
+<body>
     <header style="height: 94px; background-color: #ffffff; border: 2px solid #ccc" id="masthead">
 
-        <nav style="height: 90px; width: 960px; background: ##ffffff"
+        <nav style="height: 90px; width: 960px; background: #ffffff;"
             class="navbar navbar-expand-lg navbar-light bg-light m-auto">
-            <a style="font-size: 30px; padding: 20px; background-color: #4aaaa5; height: 90px; width: auto; text-align:center; color: white; font-family: 'georgia', times, Times New Roman, serif; line-height: 53px;"
+            <a style="font-weight: bold; font-size: 30px; padding: 20px; background-color: #4aaaa5; height: 90px; width: auto; text-align:center; color: white; font-family: 'georgia', times, Times New Roman, serif; line-height: 53px;"
                 class="navbar-brand" href="index.html">Alex
                 Ogilvie</a>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -41,45 +46,54 @@
         </nav>
 
 
-        </div>
+    
     </header>
     <div class="container" style="width: 960px; padding-top: 50px">
         <section class="row">
             <div style="background-color: white; border: 1px solid #ddd;" class="col-md-8">
                 <div style="padding: 20px;">
-                    <h1 style="border-bottom: 2px solid #ccc; padding-bottom: 20px;">About Me</h1>
-
-                    <img src="./assets/images/acm1.jpg"
-                        style=" padding-top: 20px; height: 200px; width: auto" alt="Alex, Cassie and our dog Mowgli">
-
-                    <p>My Name is Alex Ogilvie. I am resourceful and hard working with a commitment to high standards of
-                        service, performance and integrity. Focusing on customer needs to bring to life a first-rate
-                        customer
-                        experience. I pride myself on being dedicated and reliable with a problem solving nature.</p>
-                    <p>I enjoy spending my free time with my wife and dog. Rock climbing is one of my passions and has
-                        helped build dedication to improvement in many aspects of my life.</p>
+                    <h1 class="col-md-12"
+                        style="font-family: 'Georgia', Times New Roman, Times, serif; color: #4aaaa5; font-weight: bold; border-bottom: 2px solid #ccc; padding-bottom: 20px;">
+                        About Me</h1>
+                    <div class="col-md-3">
+                        <img src="./assets/images/acm1.jpg" style="padding-top: 20px; height: 200px; width: auto"
+                            alt="Alex, Cassie and our dog Mowgli">
+                    </div>
+                    <div class="col-md-9">
+                        <p style="">My Name is Alex Ogilvie. I am resourceful and hard working with a commitment to high
+                            standards of
+                            service, performance and integrity. Focusing on customer needs to bring to life a first-rate
+                            customer
+                            experience. I pride myself on being dedicated and reliable with a problem solving nature.
+                        </p>
+                        <p>I enjoy spending my free time with my wife and dog. Rock climbing is one of my passions and
+                            has
+                            helped build dedication to improvement in many aspects of my life.</p>
+                    </div>
                 </div>
             </div>
             <div class="col-md-1"></div>
             <div style="background-color: white; border: 1px solid #ddd;" class="col-md-3">
-                <div style="border-bottom: 2px solid #eee; padding-bottom: 20px;">
-                    <h4 style="padding-top: 20px;" class="text-center">Connect with Me</h4>
-                    <div class="text-center">
+                <div style=" padding-bottom: 20px;">
+                    <h4 style="border-bottom: 2px solid #eee; padding: 30px 0px 29px 0px; font-family: 'Georgia', Times New Roman, Times, serif; color: #777777;" class="text-center">Connect with Me</h4>
+                    <div class="text-center imgEx" style="padding: 20px 0px 0px 0px;">
                         <a href="https://www.facebook.com/aogilvie2" target="_blank"><img src="./assets/images/fb.png"
-                                style="height: 45px; width: auto" class="social" alt="Facebook Logo"></a>
+                                style="height: 55px; width: auto" class="social" alt="Facebook Logo"></a>
                         <a href="https://github.com/ogilvie1231" target="_blank"><img src="./assets/images/gh.svg"
-                                style="height: 45px; width: auto" class="social" alt="Github Logo"></a>
+                                style="height: 55px; width: auto" class="social" alt="Github Logo"></a>
                         <a href="https://www.linkedin.com/in/alex-ogilvie-55288257/" target="_blank"><img
-                                src="./assets/images/li.png" style="height: 42px; width: auto" class="social"
+                                src="./assets/images/li.png" style="height: 52px; width: auto" class="social"
                                 alt="Linked In Logo"></a>
                     </div>
                 </div>
             </div>
         </section>
     </div>
+    <br>
 
-    <footer>
-        <div class="container">
+
+    <footer class="row">
+        <div class=" text-center" style="background: #b1afaf; border-top: 8px solid #4aaaa5; width: 100%;">
             &copy;Copyright 2019 Alex Ogilvie
         </div>
     </footer>
