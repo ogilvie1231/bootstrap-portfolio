@@ -13,6 +13,7 @@
             transform: scale(1.05);
             transition: .25s ease;
         }
+
         body {
             background: url(./assets/images/portfolio-background.png)
         }
@@ -21,63 +22,69 @@
 </head>
 
 <body>
-    <header style="row height: 94px; background-color: #ffffff; border: 2px solid #ccc" id="masthead">
-        <nav style="height: 90px; width: 960px; background: #ffffff;"
-            class="navbar navbar-expand-lg navbar-light bg-light m-auto">
-            <a style="font-weight: bold; font-size: 30px; padding: 20px; background-color: #4aaaa5; height: 90px; width: auto; text-align:center; color: white; font-family: 'georgia', times, Times New Roman, serif; line-height: 53px;"
-                class="navbar-brand" href="index.html">Alex
-                Ogilvie</a>
+    <div>
+        <header style="height: 94px; background-color: #ffffff; border: 2px solid #ccc">
+            <nav style="height: 90px; width: 960px; background: #ffffff;"
+                class="navbar navbar-expand-lg navbar-light m-auto">
+                <a style="font-weight: bold; font-size: 30px; padding: 20px; background-color: #4aaaa5; height: 90px; width: auto; text-align:center; color: white; font-family: 'georgia', times, Times New Roman, serif; line-height: 53px;"
+                    class="navbar-brand" href="index.html">Alex
+                    Ogilvie</a>
 
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a style="border-left: 1px solid #eee;" class="nav-link" href="index.html">About Me</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a style="border-left: 1px solid #eee;" class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <br>
-    <div class="container col-md-12" style="width: 960px; padding-top: 50px">
-        <section class="main-section col-md-12" style="background: white; padding: 20px">
-            <div class="">
-                <h1 style="font-family: 'Georgia', Times New Roman, Times, serif; border-bottom: 3px solid #ddd; padding-bottom: 20px; color: #4aaaa5;">Contact</h1>
-                <form>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Name</label>
-                        <input class="form-control" placeholder="name">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a style="border-left: 1px solid #eee;" class="nav-link" href="index.html">About Me</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a style="border-left: 1px solid #eee;" class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <br>
+        <div class="container col-md-12" style="width: 960px; padding-top: 50px">
+            <section class="main-section col-md-12" style="background: white; padding: 20px">
+                <div class="">
+                    <h1
+                        style="font-family: 'Georgia', Times New Roman, Times, serif; border-bottom: 3px solid #ddd; padding-bottom: 20px; color: #4aaaa5;">
+                        Contact</h1>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Name</label>
+                            <input class="form-control" placeholder="name">
 
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
-                    </div>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
 
 
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn" style="color: white; background: #4aaaa5">Submit</button>
-                </form>
-            </div>
-        </section>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn" style="color: white; background: #4aaaa5">Submit</button>
+                    </form>
+                </div>
+            </section>
+        </div>
     </div>
     <br>
 
-    <footer class="row">
-        <div class=" text-center" style="background: #b1afaf; border-top: 8px solid #4aaaa5; width: 100%;">
-            &copy;Copyright 2019 Alex Ogilvie
-        </div>
-    </footer>
+    <div class="footer fixed-bottom" style="position: fixed">
+        <footer class="row">
+            <div class=" text-center" style="background: #b1afaf; border-top: 8px solid #4aaaa5; width: 100%;">
+                &copy;Copyright 2019 Alex Ogilvie
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
