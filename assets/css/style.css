@@ -1,0 +1,15 @@
+
+        a:hover {
+            opacity: .8;
+            transform: scale(1.05);
+            transition: .25s ease;
+        }
+
+        body {
+            background: url(../images/portfolio-background.png)
+        }
+    
+        img {
+            height: 150px;
+            width: auto;
+        }
