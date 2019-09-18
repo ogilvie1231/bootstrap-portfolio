@@ -1,5 +1,16 @@
 .project-name {
     text-align: center;
-    margin-bottom: 35%;
+    position: relative;
+    bottom: 45px;
+    background-color: aliceblue;
 
 }
+
+.contactMe {
+    width: 200px;
+    padding: 25%;
+}
+/* 
+#contactMe {
+    margin: auto;
+} */
