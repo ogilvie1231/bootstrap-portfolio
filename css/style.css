@@ -1,16 +1,38 @@
-.project-name {
-    text-align: center;
-    position: relative;
-    bottom: 45px;
-    background-color: aliceblue;
-
-}
-
-.contactMe {
-    width: 200px;
-    padding: 25%;
-}
-/* 
-#contactMe {
-    margin: auto;
-} */
+            .project-name {
+                text-align: center;
+                position: relative;
+                bottom: 45px;
+                background-color: aliceblue;
+            }
+            
+            .contactMe {
+                width: 200px;
+                padding: 25%;
+            }
+            
+            .inTouch {
+                color: white;
+            }
+            
+            / a:hover {
+                opacity: 0.8;
+                transition: .25s ease-in-out;
+                transform: scale(1.05)
+            }
+            
+            .contactMe:hover {
+                opacity: 0.8;
+                transition: .25s ease-in-out;
+                transform: scale(1.05)
+            }
+            
+            header.masthead {
+                padding-top: 10rem;
+                padding-bottom: calc(10rem - #{$navbar-height});
+                background: linear-gradient(to bottom, #{fade-out($brown, .2)} 0%, #{fade-out($brown, .2)} 100%),
+                url('/img/work.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: scroll;
+                background-size: cover;
+            }

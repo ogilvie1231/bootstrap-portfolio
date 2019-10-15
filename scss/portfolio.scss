@@ -1,0 +1,10 @@
+#mastheadP {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - #{$navbar-height});
+    background: linear-gradient(to bottom, #{fade-out($brown, .2)} 0%, #{fade-out($brown, .2)} 100%),
+    url('../img/work.jpg') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
