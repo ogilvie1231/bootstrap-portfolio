@@ -2,7 +2,7 @@
                 text-align: center;
                 position: relative;
                 bottom: 45px;
-                background-color: aliceblue;
+                background-color: rgb(181, 209, 234);
             }
             
             .contactMe {
@@ -14,7 +14,7 @@
                 color: white;
             }
             
-            / a:hover {
+            a:hover {
                 opacity: 0.8;
                 transition: .25s ease-in-out;
                 transform: scale(1.05)
@@ -26,13 +26,7 @@
                 transform: scale(1.05)
             }
             
-            header.masthead {
-                padding-top: 10rem;
-                padding-bottom: calc(10rem - #{$navbar-height});
-                background: linear-gradient(to bottom, #{fade-out($brown, .2)} 0%, #{fade-out($brown, .2)} 100%),
-                url('/img/work.jpg');
-                background-position: center;
-                background-repeat: no-repeat;
-                background-attachment: scroll;
-                background-size: cover;
+            .project-name:hover {
+                transition: .25s ease-in-out;
+                transform: scale(1.05);
             }
