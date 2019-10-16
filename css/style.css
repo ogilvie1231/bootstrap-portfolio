@@ -28,5 +28,8 @@
             
             .project-name:hover {
                 transition: .25s ease-in-out;
-                transform: scale(1.05);
+            }
+            
+            .project-name {
+                margin-bottom: 1%;
             }
