@@ -1,0 +1,39 @@
+            .project-name {
+                text-align: center;
+                position: relative;
+                bottom: 45px;
+                background-color: rgb(181, 209, 234);
+            }
+            
+            .contactMe {
+                width: 200px;
+                padding: 25%;
+            }
+            
+            .inTouch {
+                color: white;
+            }
+            
+            a:hover {
+                opacity: 0.8;
+                transition: .25s ease-in-out;
+                transform: scale(1.05)
+            }
+            
+            .contactMe:hover {
+                opacity: 0.8;
+                transition: .25s ease-in-out;
+                transform: scale(1.05)
+            }
+            
+            .project-name:hover {
+                transition: .25s ease-in-out;
+            }
+            
+            .project-name {
+                margin-bottom: 1%;
+            }
+
+            .portfolioCard {
+                margin-top: 2%;
+            }
