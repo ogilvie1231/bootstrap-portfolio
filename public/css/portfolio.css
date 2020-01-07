@@ -8,3 +8,18 @@ header.masthead {
     background-attachment: scroll;
     background-size: cover
 }
+
+section.portfolioPage {
+    /* padding-top: 10rem; */
+    padding-bottom: calc(10rem - 72px);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, .8)), to(rgba(92, 77, 66, .8))), url(../img/portBack.jpg);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, .8) 0, rgba(92, 77, 66, .8) 100%), url(../img/portBack.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover
+}
+
+.card {
+    margin-top: 1%;
+}
