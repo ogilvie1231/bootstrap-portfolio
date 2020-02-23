@@ -21,7 +21,7 @@ section.portfolioPage {
 }
 
 .card {
-    border-radius: 4%;
+    /* border-radius: 5%; */
     margin-top: 1%;
     opacity: .9;
     padding-top: 1%;

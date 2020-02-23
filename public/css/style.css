@@ -33,3 +33,13 @@
             .project-name {
                 margin-bottom: 1%;
             }
+
+            .proSec {
+                text-align: center;
+                font-family: 'Roboto Condensed', ;
+                padding-top: 2%;
+            }
+
+          hr {
+            max-width: 97%;
+            }
