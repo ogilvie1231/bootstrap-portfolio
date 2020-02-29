@@ -1,7 +1,7 @@
 # bootstrap-portfolio
 <h2 style="text-align:center;"> <a href="https://apo-portfolio.herokuapp.com/">My Portfolio Built with BootStrap</a></h2 style>
-![site image](public/img/readme.png)
-<!-- <img src="img/readme.png" alt="site image" width="600" height="400">&nbsp; -->
+<!-- ![site image](public/img/readme.png) -->
+<img src="img/readme.png" alt="site image" width="600" height="400">&nbsp;
 
 <ul>
     <li>Built using HTML, Bootstrap and custom CSS</li>
