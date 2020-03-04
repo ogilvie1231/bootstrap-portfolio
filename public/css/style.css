@@ -1,45 +1,62 @@
-            .project-name {
-                text-align: center;
-                position: relative;
-                bottom: 45px;
-                background-color: rgb(181, 209, 234);
-            }
-            
-            .contactMe {
-                width: 200px;
-                padding: 25%;
-            }
-            
-            .inTouch {
-                color: white;
-            }
-            
-            a:hover {
-                opacity: 0.8;
-                transition: .25s ease-in-out;
-                transform: scale(1.05)
-            }
-            
-            .contactMe:hover {
-                opacity: 0.8;
-                transition: .25s ease-in-out;
-                transform: scale(1.05)
-            }
-            
-            .project-name:hover {
-                transition: .25s ease-in-out;
-            }
-            
-            .project-name {
-                margin-bottom: 1%;
-            }
+.project-name {
+  text-align: center;
+  position: relative;
+  bottom: 45px;
+  background-color: rgb(181, 209, 234);
+}
 
-            .proSec {
-                text-align: center;
-                font-family: 'Roboto Condensed', ;
-                padding-top: 2%;
-            }
+.contactMe {
+  width: 200px;
+  padding: 25%;
+}
 
-          hr {
-            max-width: 97%;
-            }
+.inTouch {
+  color: white;
+}
+
+a:hover {
+  opacity: 0.8;
+  transition: 0.25s ease-in-out;
+  transform: scale(1.05);
+}
+
+.contactMe:hover {
+  opacity: 0.8;
+  transition: 0.25s ease-in-out;
+  transform: scale(1.05);
+}
+
+.project-name:hover {
+  transition: 0.25s ease-in-out;
+}
+
+.project-name {
+  margin-bottom: 1%;
+}
+
+.proSec {
+  text-align: center;
+  font-family: "Roboto Condensed";
+  padding-top: 2%;
+}
+
+hr {
+  max-width: 97%;
+}
+
+.contactButton {
+  background-color: orangered;
+  color: white;
+}
+
+.logoImg {
+  max-width: 100px;
+}
+
+.logoRow {
+    padding: 3%;
+}
+
+.largeBreak {
+    border-bottom: gray solid 1px;
+}
