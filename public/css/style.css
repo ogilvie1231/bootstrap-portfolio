@@ -60,3 +60,12 @@ hr {
 .largeBreak {
     border-bottom: gray solid 1px;
 }
+
+.portfolioCard {
+  margin-top: 4%;
+}
+
+/* .proCard {
+  background-color: rgb(214, 214, 214);
+  max-width: 98%;
+} */
